@@ -1,0 +1,80 @@
+.back-board{
+  /*background-color: #C7EAFB;*/
+  background: url("/assets/images/back-re.png");
+}
+
+.game-board{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game-board2{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game-board3{
+  margin-bottom: 25px;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 8px;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background:url("/assets/images/back-paper.png");
+}
+
+.game-board4{
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 8px;
+  margin-top: 3%;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 13px;
+  padding-bottom: 20px;
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+  min-width: 100%;
+  flex-direction: column;
+  background:url("/assets/images/back-paper.png");
+}
+
+
+.game-board-dialog{
+  margin-bottom: 25px;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 8px;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background:url("/assets/images/back-paper.png");
+}
+
+@media only screen and (max-width: 600px) {
+  .game-board{
+    margin-top: 25%;
+  }
+  .game-board2{
+    margin-top: 10%;
+  }
+  .game-board3{
+    margin-top: 10%;
+  }
+  .game-board4{
+    margin-top: 10%;
+  }
+  .game-board-dialog{
+    margin-top: 10%;
+  }
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
