@@ -1,0 +1,58 @@
+h1{
+  font-family: "Rock Salt";
+  margin-bottom: 40px;
+}
+
+.name{
+  background: transparent;
+  border-bottom-color: black;
+  border-style: solid;
+  height: 50px;
+  border-top-color: transparent ;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  font-size: 25px;
+  font-family: "Rock Salt";
+  outline: none;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  text-align: center;
+  font-family: "Rock Salt";
+  font-size: 30px;
+  align-items: center;
+  border:solid 7px #41403E;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  outline:none;
+}
+
+.horz{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.error{
+  color: red;
+  font-size: 15px
+}
+
+@media only screen and (max-width: 600px) {
+
+  h1{
+    font-size: 20px;
+  }
+  .name{
+    font-size: 7px;
+  }
+  form{
+    font-size: 15px;
+  }
+  .error{
+    font-size: 10px
+  }
+}

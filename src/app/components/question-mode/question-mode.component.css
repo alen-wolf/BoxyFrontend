@@ -1,0 +1,172 @@
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Rock Salt'
+}
+
+.board{
+  font-family: "Rock Salt";
+  font-size: 55px;
+}
+button{
+  cursor: pointer;
+  padding: 0px;
+  background-color: transparent;
+  display: flex;
+  font-size: 40px;
+  font-family: Rock Salt;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+  margin: 25px;
+  flex-direction: row;
+  justify-content: center;
+  border:solid 7px #41403E;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  outline:none;
+}
+
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 25px;
+  }
+  .board{
+    font-size: 25px;
+  }
+  button{
+    font-size: 25px;
+  }
+}
+.cell1X{
+  cursor: pointer;
+  border-style: solid;
+  border-color: black;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  color: #ff708e;
+}
+.cell2X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-top-color: transparent;
+  color: #ff708e;
+}
+.cell3X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  color: #ff708e;
+}
+.cell4X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-left-color: transparent;
+  color: #ff708e;
+}
+.cell5X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  color: #ff708e;
+}
+.cell6X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-right-color: transparent;
+  color: #ff708e;
+}
+.cell7X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  color: #ff708e;
+}
+.cell8X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-bottom-color: transparent;
+  color: #ff708e;
+}
+.cell9X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  color: #ff708e;
+}
+.cell1O{
+  cursor: pointer;
+  border-style: solid;
+  border-color: black;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  color: #9df871;
+}
+.cell2O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-top-color: transparent;
+  color: #9df871;
+}
+.cell3O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  color: #9df871;
+}
+.cell4O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-left-color: transparent;
+  color: #9df871;
+}
+.cell5O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  color: #9df871;
+}
+.cell6O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-right-color: transparent;
+  color: #9df871;
+}
+.cell7O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  color: #9df871;
+}
+.cell8O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-bottom-color: transparent;
+  color: #9df871;
+}
+.cell9O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  color: #9df871;
+}

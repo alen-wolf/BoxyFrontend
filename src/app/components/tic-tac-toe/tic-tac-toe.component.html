@@ -1,0 +1,14 @@
+<div class="game-board4">
+  <h1>Player &nbsp; {{gurn}} &nbsp; turn</h1>
+  <mat-grid-list cols="3" rowHeight="150px" class="board">
+    <mat-grid-tile [ngClass]="cell1" (click)="cellClick0()">{{gameField[0]}}</mat-grid-tile>
+    <mat-grid-tile [ngClass]="cell2" (click)="cellClick1()">{{gameField[1]}}</mat-grid-tile>
+    <mat-grid-tile [ngClass]="cell3" (click)="cellClick2()">{{gameField[2]}}</mat-grid-tile>
+    <mat-grid-tile [ngClass]="cell4" (click)="cellClick3()">{{gameField[3]}}</mat-grid-tile>
+    <mat-grid-tile [ngClass]="cell5" (click)="cellClick4()">{{gameField[4]}}</mat-grid-tile>
+    <mat-grid-tile [ngClass]="cell6" (click)="cellClick5()">{{gameField[5]}}</mat-grid-tile>
+    <mat-grid-tile [ngClass]="cell7" (click)="cellClick6()">{{gameField[6]}}</mat-grid-tile>
+    <mat-grid-tile [ngClass]="cell8" (click)="cellClick7()">{{gameField[7]}}</mat-grid-tile>
+    <mat-grid-tile [ngClass]="cell9" (click)="cellClick8()">{{gameField[8]}}</mat-grid-tile>
+  </mat-grid-list>
+</div>

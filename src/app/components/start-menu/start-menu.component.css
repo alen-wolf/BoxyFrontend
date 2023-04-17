@@ -1,0 +1,13 @@
+.gif-fit{
+  border-radius: 50%;
+  width: clamp(200px,70%,600px);
+
+}
+.gif-fit2{
+  margin-top: 10px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #C7EAFB;
+  width: clamp(200px,70%,600px);
+}

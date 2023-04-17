@@ -1,0 +1,30 @@
+<mat-dialog-content class="game-board-dialog">
+  <form [formGroup]="questForm" (ngSubmit)="setQuestion()" class="dialog">
+    <label for="quest">Question:</label>
+    <input id="quest" class="name" formControlName="quest">
+    <br>
+    <label for="cAnswer">Correct Answer:</label>
+    <input id="cAnswer" class="name" formControlName="cAnswer">
+    <div *ngIf="getCAnswer('cAnswer')?.errors?.required" class="error">Correct answer is required!</div>
+    <br>
+    <label for="wAnswer1">Wrong &nbsp; Answer &nbsp; 1:</label>
+    <input id="wAnswer1" class="name" formControlName="wAnswer1">
+    <br>
+    <label for="wAnswer2">Wrong &nbsp; Answer &nbsp; 2:</label>
+    <input id="wAnswer2" class="name" formControlName="wAnswer2">
+    <br>
+  </form>
+  <form class="dialog">
+    <label for="qlist">Or &nbsp; select &nbsp; one</label>
+    <select [ngModel] id="qlist" name="qlist" class="list" (ngModelChange)="onPickQuestion($event)">
+      <option [value]="quest.id" *ngFor="let quest of questionList" style="background-color:#f3fb9c;">
+        {{quest.Question}}
+      </option>
+    </select>
+  </form>
+
+  <div class="horz">
+    <button (click)="setQuestion()">Submit</button>
+    <button [disabled]="clicked" (click)="saveQuestion(); clicked=true;">Save</button>
+  </div>
+</mat-dialog-content>

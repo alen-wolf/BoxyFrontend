@@ -1,0 +1,15 @@
+<table>
+  <thead class="thead">
+    <tr>
+      <th>Player</th>
+      <th>Wins</th>
+    </tr>
+  </thead>
+  <tbody class="table">
+  <tr *ngFor="let dataItem of ScoreList">
+    <td>{{dataItem.PlayerName}}</td>
+    <td></td>
+    <td>{{dataItem.Wins}}</td>
+  </tr>
+  </tbody>
+</table>

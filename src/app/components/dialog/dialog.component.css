@@ -1,0 +1,25 @@
+.dialog{
+  background-color: #C7EAFB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Rock Salt";
+}
+
+button{
+  cursor: pointer;
+  padding: 0px;
+  background-color: transparent;
+  display: flex;
+  font-size: 25px;
+  font-family: Rock Salt;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+  margin: 25px;
+  border:solid 7px #41403E;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  outline:none;
+}

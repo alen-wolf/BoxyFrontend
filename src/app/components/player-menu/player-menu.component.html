@@ -1,0 +1,17 @@
+<div class="game-board3">
+  <h1>SELECT &nbsp; MODE</h1>
+  <form [formGroup]="nameForm" (ngSubmit)="asUser()">
+    <label for="fname">Player &nbsp; 1</label>
+    <input id="fname" class="name" formControlName="fname">
+    <div *ngIf="getFName('fname')?.errors?.required" class="error">Name is required for Play mode</div>
+    <br>
+    <label for="sname">Player &nbsp; 2</label>
+    <input id="sname" class="name" formControlName="sname">
+    <div *ngIf="getSName('sname')?.errors?.required" class="error">Name is required for Play mode</div>
+    <br>
+  </form>
+  <div class="horz">
+    <app-menu-button text="Play" (click)="asUser()"></app-menu-button>
+    <app-menu-button text="Guest" (click)="asGuest()"></app-menu-button>
+  </div>
+</div>

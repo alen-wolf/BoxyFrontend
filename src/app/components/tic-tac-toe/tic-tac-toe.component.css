@@ -1,0 +1,151 @@
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Rock Salt'
+}
+
+.board{
+  font-family: "Rock Salt";
+  font-size: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 25px;
+  }
+  .board{
+    font-size: 25px;
+  }
+}
+.cell1X{
+  cursor: pointer;
+  border-style: solid;
+  border-color: black;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  color: red;
+}
+.cell2X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-top-color: transparent;
+  color: red;
+}
+.cell3X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  color: red;
+}
+.cell4X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-left-color: transparent;
+  color: red;
+}
+.cell5X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  color: red;
+}
+.cell6X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-right-color: transparent;
+  color: red;
+}
+.cell7X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  color: red;
+}
+.cell8X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-bottom-color: transparent;
+  color: red;
+}
+.cell9X{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  color: red;
+}
+.cell1O{
+  cursor: pointer;
+  border-style: solid;
+  border-color: black;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  color: deepskyblue;
+}
+.cell2O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-top-color: transparent;
+  color: deepskyblue;
+}
+.cell3O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  color: deepskyblue;
+}
+.cell4O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-left-color: transparent;
+  color: deepskyblue;
+}
+.cell5O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  color: deepskyblue;
+}
+.cell6O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-right-color: transparent;
+  color: deepskyblue;
+}
+.cell7O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  color: deepskyblue;
+}
+.cell8O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-bottom-color: transparent;
+  color: deepskyblue;
+}
+.cell9O{
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  color: deepskyblue;
+}

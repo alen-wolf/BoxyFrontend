@@ -1,0 +1,80 @@
+.dialog{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Rock Salt";
+  border:solid 7px #41403E;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  outline:none;
+}
+
+.list{
+  background-color: transparent;
+  border-color: black;
+  border-style: solid;
+  font-size: 25px;
+}
+
+button{
+  cursor: pointer;
+  padding: 0px;
+  background-color: transparent;
+  display: flex;
+  font-size: 25px;
+  font-family: Rock Salt;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+  margin: 25px;
+  border:solid 7px #41403E;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  outline:none;
+}
+
+.error{
+  color: red;
+  font-size: 15px
+}
+
+.name{
+  background: transparent;
+  border-bottom-color: black;
+  border-style: solid;
+  height: 50px;
+  border-top-color: transparent ;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  font-size: 25px;
+  font-family: "Rock Salt";
+  outline: none;
+}
+.horz{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .name{
+    font-size: 10px;
+  }
+  .dialog{
+    font-size: 15px;
+  }
+  button{
+    font-size: 15px;
+  }
+  .error{
+    font-size: 8px;
+  }
+  .list{
+    font-size: 7px;
+  }
+}

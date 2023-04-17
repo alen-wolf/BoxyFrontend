@@ -1,0 +1,16 @@
+<mat-dialog-content class="game-board-dialog">
+  <form class="dialog">
+    <h2>{{answers.Question}}</h2>
+    <label>
+      <input  (click)="close1()" type="radio" name="first"/>{{list[0]}}
+    </label>
+    <br>
+    <label>
+      <input  (click)="close2()" type="radio" name="second"/>{{list[1]}}
+    </label>
+    <br>
+    <label>
+      <input  (click)="close3()"  type="radio" name="third"/>{{list[2]}}
+    </label>
+  </form>
+</mat-dialog-content>

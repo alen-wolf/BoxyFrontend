@@ -1,0 +1,8 @@
+.game-title{
+  display: flex;
+  justify-content: center;
+}
+.title-fit{
+  height: 130px;
+  width: clamp(200px,100%,600px);
+}
